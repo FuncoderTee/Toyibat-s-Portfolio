@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Toyibat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/35fee48b78.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/Logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span>Toyibat</span><br>Salako</h1>
+        </div>
+    </div>
+   </div> 
+   <!------about------>
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/Hero Image.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Welcome to my portfolio. Hi! I'm Toyibat, a versatile product designer with a passion for crafting seamless user experiences and captivating visuals. With a background in both product design and web development, I bring a unique blend of creativity and technical expertise to every project. From conceptualization to execution, I specialize in translating ideas into polished designs that resonate with users. With a keen eye for detail and a commitment to innovation, I thrive on solving complex problems and delivering intuitive solutions that elevate user interactions. Explore my work and let's bring your next project to life!"</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building Android/iOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024 - Current</span><br>Product Design UI/UX Capstone Project at Women Techsters Fellowship (Class of 2024) Tech4Dev.</li>
+                        <li><span>Jan. 2023 - Nov. 2023</span><br>National Youth Service Corps (NYSC). Worked as an Administrative Staff at Obafemi Awolowo University (OAU, IFEDS, Osun State Nigeria).</li>
+                        <li><span>March 2021 - July 2021</span><br>Teaching Practice (TP) exercise at Tai Solarin University of Education Secondary School (TASUESS).</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Oct. 2023 - Present</span><br>Product Design (UI/UX) Learning Track at (Tech4Dev) Women Techsters Fellowship Class of 2024.</li>
+                        <li><span>Sept. 2023 - Nov. 2023</span><br>Postgraduate Diploma (PGD), Human Resource Management at International College of Safety and Management Professional (ICSMP).</li>
+                        <li><span>Sept. 2017 - Nov. 2021</span><br>B.A. Ed. Islamic Studies at Tai Solarin University of Education (TASUED).</li>
+                    </ul>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+   </div>
+   <!------services------>
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>As a web design specialist, I offer a range of services tailored to your needs. From sleek and modern layouts to intuitive user interfaces, I bring creativity and technical expertise to every project. Let's collaborate to create a website that not only looks stunning but also drives results for your business.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>As a UI/UX designer, I specialize in creating intuitive interfaces that seamlessly merge form and function. Whether it's crafting wireframes, designing prototypes, or conducting user research, I'm dedicated to delivering visually stunning and user-centric designs. Let's collaborate to elevate your product's user experience and leave a lasting impression.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>As a seasoned product designer, I specialize in creating captivating and intuitive mobile experiences that captivate users and drive engagement. From concept to delivery, I collaborate closely with clients to craft sleek, user-centric designs that seamlessly integrate with your brand identity. Whether you're launching a new app or seeking to enhance an existing one, I'm dedicated to transforming your ideas into polished, high-performance digital solutions.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!----------Portfolio--------->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Automobile Work 1.png"/>
+                <div class="layer">
+                    <h3>Automobile Website</h3>
+                    <p>This site allows you to search and get your dream car at your own comfort. Go Explore</p>
+                    <a href="https://www.figma.com/proto/fFMNUktCpCv5giy9OveBZ8/Portfolio-Link-Page?page-id=0%3A1&node-id=2-6&starting-point-node-id=2%3A6&scaling=scale-down&content-scaling=fixed&t=saXatPPyNTcJDh6l-1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="images/AgroWize Work 1.png"/>
+                <div class="layer">
+                    <h3>Agricultural Website</h3>
+                    <p>This site allows you to learn about Revolutionized Agriculture through Vertical and Hydro farming. Learn More.</p>
+                    <a href="https://www.figma.com/proto/fFMNUktCpCv5giy9OveBZ8/Portfolio-Link-Page?page-id=0%3A1&node-id=2-6&starting-point-node-id=2%3A6&scaling=scale-down&content-scaling=fixed&t=saXatPPyNTcJDh6l-1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/Sport work 1.png"/>
+                <div class="layer">
+                    <h3>Sport Website</h3>
+                    <p>This site allows you get the latest update and news on your favourite football sport. Lets get the ball Rolling!</p>
+                    <a href="https://www.figma.com/proto/fFMNUktCpCv5giy9OveBZ8/Portfolio-Link-Page?page-id=0%3A1&node-id=2-6&starting-point-node-id=2%3A6&scaling=scale-down&content-scaling=fixed&t=saXatPPyNTcJDh6l-1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/Music Work 1.png"/>
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>This app allows you to play and download your favourite music. Download it from play store.</p>
+                    <a href="https://www.figma.com/proto/fFMNUktCpCv5giy9OveBZ8/Portfolio-Link-Page?page-id=0%3A1&node-id=2-6&starting-point-node-id=2%3A6&scaling=scale-down&content-scaling=fixed&t=saXatPPyNTcJDh6l-1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/Music Work 2.png"/>
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>This app allows you to play and download your favourite music. Download it from play store.</p>
+                    <a href="https://www.figma.com/proto/fFMNUktCpCv5giy9OveBZ8/Portfolio-Link-Page?page-id=0%3A1&node-id=2-6&starting-point-node-id=2%3A6&scaling=scale-down&content-scaling=fixed&t=saXatPPyNTcJDh6l-1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/Music Work 3.png"/>
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>This app allows you to play and download your favourite music. Download it from play store.</p>
+                    <a href="https://www.figma.com/proto/fFMNUktCpCv5giy9OveBZ8/Portfolio-Link-Page?page-id=0%3A1&node-id=2-6&starting-point-node-id=2%3A6&scaling=scale-down&content-scaling=fixed&t=saXatPPyNTcJDh6l-1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+                </div>
+            </div>
+        </div>
+        <a href="https://www.figma.com/proto/fFMNUktCpCv5giy9OveBZ8/Portfolio-Link-Page?page-id=0%3A1&node-id=2-6&starting-point-node-id=2%3A6&scaling=scale-down&content-scaling=fixed&t=saXatPPyNTcJDh6l-1" class="btn">See more</a>
+    </div>
+   </div>
+
+   <!---------Contact------->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> toyibatsalakoa@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>  +234 807 151 4229</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com/in/toyibat-salako-ab166026a"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Toyibat Salako's CV June 2024.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Toyibat. Made with <i class="fa-solid fa-heart"></i> by Tee 2024.</p>
+    </div>
+   </div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-150px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxzuSrBGbs_vrJV4bspbkT1YUD-rm8U7JE1CLjKSVlHnu6CeUDIibkTOEu7FZ730Hyc/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+        form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
